@@ -8,5 +8,44 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 
 // our all custom code
 
+body {
+	background-color: #f6f6f6;
+	width: 100vw;
+	min-height: 100vh;
+}
 
+.li-bar {
+	width: 1px;
+	background-color: #c5c4c4;
+	height: 1rem;
+}
+
+.nav-icon {
+	color: rgba(0, 0, 0, 0.55);
+	font-size: 1.3rem;
+}
+
+.nav-item {
+	cursor: pointer;
+}
+
+.custom-dropdown {
+	position: relative;
+}
+
+.custom-dropdown:hover ul {
+	display: block;
+}
+
+.custom-dropdown ul {
+	display: none;
+	min-width: 100px;
+	position: absolute;
+	z-index: 100;
+	background-color: #fff;
+	box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
+	padding: 1rem;
+	border-radius: 0.15rem;
+	margin-top: 0.5rem;
+}
 

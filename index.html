@@ -1,24 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flone | Plants Home</title>
-    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Fontawesome kit's code -->
+    <script src="https://kit.fontawesome.com/b6ced29dcd.js" crossorigin="anonymous"></script>
 
     <!-- Our project just needs Font Awesome Solid + Brands -->
     <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
     <script defer src="/node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
     <script defer src="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
 
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
+
 <body>
-    <h1 class="text-center">Welcome to E-Commerce Website</h1>
-    <div class="text-center">
-        font-awesome: 
-        <i class="fa-solid fa-user"></i>
-        <i class="fa-brands fa-github-square"></i>
+
+    <!-- Top Navbar starts -->
+    <nav class="navbar">
+        <div class="container my-2">
+            <!-- Navbar middle side -->
+            <a class="navbar-brand" href="#">
+                <img src="./images//logo.png" alt="Logo" class="d-inline-block align-text-top">
+            </a>
+
+            <!-- Navbar right side -->
+            <div class="order-first">
+                <ul class="navbar-nav flex-row gap-3 align-items-center">
+                    <li class="nav-item nav-link custom-dropdown">
+                        English
+                        <span><i class="fa fa-angle-down"></i></span>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">English</li>
+                            <li class="nav-item">French</li>
+                            <li class="nav-item">Germany</li>
+                        </ul>
+                    </li>
+
+                    <li class="li-bar"></li>
+                    <li class="nav-item nav-link custom-dropdown">
+                        USD
+                        <span><i class="fa fa-angle-down"></i></span>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">USD</li>
+                            <li class="nav-item">EUR</li>
+                            <li class="nav-item">GDP</li>
+                        </ul>
+                    </li>
+
+                    <li class="li-bar"></li>
+                    <li class="nav-item nav-link">Call Us 2545275</li>
+
+                </ul>
+            </div>
+
+            <!-- Navbar right side -->
+            <div>
+                <ul class="navbar-nav flex-row gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">
+                            <span class="nav-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span class="nav-icon"><i class="fa-regular fa-circle-user"></i></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span class="nav-icon"><i class="fa-solid fa-shuffle"></i></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">
+                            <span class="nav-icon"><i class="fa-solid fa-heart"></i></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">
+                            <span class="nav-icon"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Top Navbar ends -->
+
+    <div class="container">
+        <hr />
     </div>
+
+    <!-- Secondary Navbar starts -->
+    <nav class="navbar navbr-light">
+        <div class="container">
+            <div></div>
+            <div>
+                <ul class="navbar-nav flex-row gap-4">
+                    <li class="nav-item custom-dropdown">
+                        <a class="nav-link" aria-current="page" href="#">
+                            Home
+                            <span><i class="fa fa-angle-down"></i></span>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">USD</li>
+                                <li class="nav-item">EUR</li>
+                                <li class="nav-item">GDP</li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav-item custom-dropdown">
+                        <a class="nav-link" aria-current="page" href="#">
+                            Shop
+                            <span><i class="fa fa-angle-down"></i></span>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">USD</li>
+                                <li class="nav-item">EUR</li>
+                                <li class="nav-item">GDP</li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Collection</a>
+                    </li>
+                    <li class="nav-item custom-dropdown">
+                        <a class="nav-link" aria-current="page" href="#">
+                            Pages
+                            <span><i class="fa fa-angle-down"></i></span>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">USD</li>
+                                <li class="nav-item">EUR</li>
+                                <li class="nav-item">GDP</li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav-item custom-dropdown">
+                        <a class="nav-link" aria-current="page" href="#">
+                            Blog
+                            <span><i class="fa fa-angle-down"></i></span>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">USD</li>
+                                <li class="nav-item">EUR</li>
+                                <li class="nav-item">GDP</li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div></div>
+        </div>
+    </nav>
+    <!-- Secondary Navbar ends -->
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
