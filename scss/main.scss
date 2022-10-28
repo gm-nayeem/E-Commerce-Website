@@ -7,16 +7,12 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // our all custom code
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 body {
 	background-color: #f6f6f6;
-	width: 100vw;
 	min-height: 100vh;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
 .li-bar {
@@ -60,23 +56,22 @@ body {
 	height: 500px;
 }
 
-// .carousel-control-prev {
-// 	left: -15rem;
-// }
+.carousel-control-prev {
+	left: -11rem;
+}
 
-// .carousel-control-next {
-// 	right: -15rem;
-// }
+.carousel-control-next {
+	right: -10rem;
+}
 
-// .carousel-control-prev,
-// .carousel-control-next {
-// 	filter: invert(100%);
-// }
+.carousel-control-prev,
+.carousel-control-next {
+	filter: invert(100%);
+}
 
 .carousel-item {
-    width: 100%;
 	height: 100%;
-	//background-color: #f6f6f6;
+	background-color: #f6f6f6;
 }
 
 .carousel-content {
@@ -84,7 +79,6 @@ body {
 	height: 100%;
 	display: flex;
 	align-items: center;
-    justify-content: center;
 }
 
 .carousel-content div {
@@ -106,8 +100,8 @@ body {
 	margin-top: 2rem;
 }
 
-// .carousel-img {
-// 	display: flex;
-// 	justify-content: center;
-// }
+.carousel-img {
+	display: flex;
+	justify-content: flex-end;
+}
 

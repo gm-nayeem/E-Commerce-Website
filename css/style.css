@@ -10771,16 +10771,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: #f6f6f6;
-  width: 100vw;
   min-height: 100vh;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 .li-bar {
@@ -10822,9 +10817,22 @@ body {
   height: 500px;
 }
 
+.carousel-control-prev {
+  left: -11rem;
+}
+
+.carousel-control-next {
+  right: -10rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
+}
+
 .carousel-item {
-  width: 100%;
   height: 100%;
+  background-color: #f6f6f6;
 }
 
 .carousel-content {
@@ -10832,7 +10840,6 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .carousel-content div {
@@ -10852,6 +10859,11 @@ body {
   outline: none;
   border: 1px solid #000;
   margin-top: 2rem;
+}
+
+.carousel-img {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*# sourceMappingURL=style.css.map */
