@@ -12,9 +12,14 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 body {
 	background-color: #f6f6f6;
 	min-height: 100vh;
-    margin-left: 160px;
-    margin-right: 160px;
 }
+
+// Only for me just style purpose
+.for-my-screen {
+	margin-left: 120px;
+    margin-right: 120px;
+}
+
 
 .li-bar {
 	width: 1px;
@@ -58,11 +63,11 @@ body {
 }
 
 .carousel-control-prev {
-	left: -11rem;
+	left: -9rem;
 }
 
 .carousel-control-next {
-	right: -10rem;
+	right: -8rem;
 }
 
 .carousel-control-prev,
