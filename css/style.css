@@ -10879,6 +10879,33 @@ textarea.form-control-lg {
   border-color: #a749FF;
   background-color: #a749FF;
 }
+.sidebar-style .sidebar-widget .sidebar-widget-tags {
+  margin-top: 30px;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-tags ul {
+  margin: 0;
+  padding: 0;
+  list-style: outside none none;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-tags ul li {
+  display: inline-block;
+  margin: 0 10px 20px 0;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-tags ul li button {
+  line-height: 1;
+  display: inline-block;
+  padding: 9px 13px 12px;
+  text-transform: capitalize;
+  color: #424242;
+  border: none;
+  border-radius: 50px;
+  background: none;
+  background-color: #f6f6f6;
+}
+.sidebar-style .sidebar-widget .sidebar-widget-tags ul li button:hover {
+  color: #fff;
+  background-color: #a749FF;
+}
 
 body {
   background-color: #ffffff;
