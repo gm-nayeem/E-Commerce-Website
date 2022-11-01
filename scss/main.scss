@@ -47,7 +47,8 @@ body {
 
 .custom-dropdown ul {
 	display: none;
-	min-width: 100px;
+	min-width: 200px;
+	line-height: 40px;
 	position: absolute;
 	z-index: 100;
 	background-color: #fff;
