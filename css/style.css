@@ -10773,8 +10773,30 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
+.breadcrumb-area {
   background-color: #f6f6f6;
+  padding: 35px 0;
+  margin-top: 1rem;
+}
+.breadcrumb-area span > span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.breadcrumb-area span > span a {
+  color: #5b5858;
+  text-decoration: none;
+}
+.breadcrumb-area span > span a:hover {
+  color: #A749Ff;
+}
+.breadcrumb-area span > span span {
+  margin: 0 15px;
+}
+
+body {
+  background-color: #ffffff;
   min-height: 100vh;
 }
 
@@ -11233,8 +11255,8 @@ body {
 .footer-area .scroll-top {
   position: fixed;
   z-index: 9999 !important;
-  right: 10px;
-  bottom: 40px;
+  right: 12px;
+  bottom: 60px;
   width: 50px;
   height: 50px;
   border: none;
