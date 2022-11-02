@@ -10907,6 +10907,36 @@ textarea.form-control-lg {
   background-color: #a749FF;
 }
 
+.main-con .choose-widget {
+  margin-top: 60px;
+  position: relative;
+}
+.main-con .choose-widget .pro-select-widget select {
+  width: 30%;
+  margin-bottom: 40px;
+}
+.main-con .choose-widget .pro-button-widget {
+  position: relative;
+}
+.main-con .choose-widget .pro-button-widget .select-button {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.main-con .choose-widget .pro-button-widget .select-button button {
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 28px;
+  background: none;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-50%);
+}
+.main-con .choose-widget .pro-button-widget .select-button button:hover {
+  background-color: #a749FF;
+}
+
 body {
   background-color: #ffffff;
   min-height: 100vh;

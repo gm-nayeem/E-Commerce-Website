@@ -124,3 +124,44 @@
         }
     }
 }
+
+// main content
+.main-con {
+    .choose-widget {
+        margin-top: 60px;
+        position: relative;
+
+        .pro-select-widget {
+            select {
+                width: 30%;
+                margin-bottom: 40px;                          
+            }    
+        }
+
+        .pro-button-widget {
+            position: relative;
+            
+            .select-button {
+                position: absolute;
+                right: 0;
+                bottom: 10px;
+
+                button {
+                    margin-left: 10px;
+                    outline: none;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 28px;
+                    background: none;
+                    transition: all 0.3s ease 0s;
+                    transform: translateY(-50%);
+
+                    &:hover {
+                        background-color: #a749FF;
+                    }
+                }
+            }           
+        }
+    }
+
+}
