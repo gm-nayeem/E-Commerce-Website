@@ -10936,6 +10936,24 @@ textarea.form-control-lg {
 .main-con .choose-widget .pro-button-widget .select-button button:hover {
   background-color: #a749FF;
 }
+.main-con .pagination-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-con .pagination-style .nav-item {
+  background-color: #f6f6f6;
+}
+.main-con .pagination-style .nav-item a {
+  color: #a749FF;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+.main-con .pagination-style .nav-item a:hover {
+  color: white;
+  background-color: #a749FF;
+}
 
 body {
   background-color: #ffffff;

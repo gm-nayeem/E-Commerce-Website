@@ -164,4 +164,26 @@
         }
     }
 
+    .pagination-style {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .nav-item {
+            background-color: #f6f6f6;
+
+            a {
+                color: #a749FF;
+                background-color: #fff;
+                border-radius: 50%;
+                padding: 10px 15px;
+                
+                &:hover {
+                    color: white;
+                    background-color: #a749FF;
+                }
+            }
+            
+        }
+    }
 }
